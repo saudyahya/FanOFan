@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FanOFan</title>
+    <link rel="stylesheet" href="boxicons-2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact_style.css">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo"><img src="images/logo5.png" alt="logo"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="products.html" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+            </div>
+        </nav>
+    </header>
+<br><br><br><br><br>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.016774944157!2d67.07220911437113!3d24.86327665126935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2ssa!4v1618747849327!5m2!1sen!2ssa" width="450" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <input type="text" class="field" placeholder="Name">
+                <input type="email" class="field" placeholder="Email">
+                <input type="text" class="field" placeholder="Phone">
+                <textarea class="field" placeholder="Message"></textarea>
+                <button class="button1">Submit</button>
+            </div>
+        </div>
+    </div>
+<br><br><br>
+    <footer class="footer section">
+        <p class="footer__copy">&#169; 2021 copyright all rights reserved.</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+    <script src="JQuery.js"></script>
+    
+    <script type="text/javascript">
+        const currentLocation = location.href;
+        const menuItem = document.querySelectorAll('a');
+        const menuLength = menuItem.length
+        for (let i = 0; i<menuLength; i++){
+            if(menuItem[i].href === currentLocation){
+                menuItem[i].className = "active"
+            }
+        }
+    </script>
+</body>
+</html>

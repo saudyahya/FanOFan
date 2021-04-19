@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FanOFan</title>
+    <link rel="stylesheet" href="boxicons-2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about_style.css">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo"><img src="images/logo5.png" alt="logo"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="products.html" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+            </div>
+        </nav>
+    </header>
+
+<div class="a1">	
+	<video loop muted autoplay>
+		<source src="1234.mp4" type="video/mp4">
+	</video>
+	<h1>FANoFAN</h1>
+</div>
+
+<br>
+
+<div class="a2">
+	<h2>Who We Are</h2>
+    <p> 2000, F O F Engineering (PVT.) LTD. is recognized in the industry as a leader for its parent brand Fan O Fan. <br>
+    	We have been manufacturing superior quality fans,  and room coolers for over 20 years; striving for utmost standards and value for our esteemed customers. <br>
+		Our products and services aim for reliability, energy efficiency and optimum performance. We feel proud in being the manufacturers of Pakistan’s best-in-class ceiling fans.<br>
+        All of this would not have been possible without the endless support and arduous work of our talented team members. They are always encouraged to keep abreast of the ever-evolving market trends and technology developments. Their learnings are then incorporated in the production process to guarantee the finest for our consumers.
+        Built with sheer diligence and an example of state-of-the-art producStion standards, our product line consists of:
+    </p>
+            
+    <h2 class="p1">Commitment to Quality, Innovation, Growth</h2>
+    <p>Our consumers’ peace of mind and satisfaction is our top most priority; which is why we keep striving for and providing the best to them by upping our standards all the time. At F O F Engineering, we challenge ourselves and our expertise to keep up with the surroundings as well as to set the bar higher, every time</p>
+<br>
+    <footer class="footer section">
+        <p class="footer__copy">&#169; 2021 copyright all rights reserved.</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+    <script src="JQuery.js"></script>
+    
+    <script type="text/javascript">
+        const currentLocation = location.href;
+        const menuItem = document.querySelectorAll('a');
+        const menuLength = menuItem.length
+        for (let i = 0; i<menuLength; i++){
+            if(menuItem[i].href === currentLocation){
+                menuItem[i].className = "active"
+            }
+        }
+    </script>
+</body>
+</html>
